@@ -1,54 +1,57 @@
-/* Estilo global */
+/* Estilo geral */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  background: #f3f4f6;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #faf7fb; /* fundo lilás bem clarinho */
+  color: #4a3b53; /* roxo suave para o texto */
   text-align: center;
 }
 
 /* Cabeçalho */
 header {
-  background: #4f46e5;
+  background: linear-gradient(to right, #c084fc, #f472b6); /* lilás → rosa */
   color: white;
-  padding: 60px 20px;
+  padding: 80px 20px;
+  border-bottom-left-radius: 50% 10%;
+  border-bottom-right-radius: 50% 10%;
 }
 
 header h1 {
   font-size: 2.5rem;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 header p {
   font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+/* Logo imagem */
+.logo {
+  max-width: 220px;
   margin-bottom: 20px;
 }
 
-button {
-  background: #22c55e;
-  color: white;
-  padding: 15px 30px;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: 0.3s;
+/* Seções */
+section {
+  padding: 60px 20px;
 }
 
-button:hover {
-  background: #16a34a;
-}
-
-/* Seção de benefícios */
 .benefits {
-  padding: 40px 20px;
+  background: white;
+  margin: 20px auto;
   max-width: 800px;
-  margin: auto;
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 6px 20px rgba(192, 132, 252, 0.2);
 }
 
 .benefits h2 {
-  font-size: 2rem;
   margin-bottom: 20px;
+  color: #9333ea; /* lilás destaque */
+  font-size: 1.8rem;
 }
 
 .benefits ul {
@@ -56,7 +59,26 @@ button:hover {
   padding: 0;
 }
 
-.benefits li {
-  font-size: 1.1rem;
+.benefits ul li {
   margin: 10px 0;
+  font-size: 1.1rem;
+  color: #4a3b53;
+}
+
+/* Botão estilo WhatsApp */
+button {
+  background-color: #25D366; /* verde WhatsApp */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+}
+
+button:hover {
+  background-color: #1ebe5a;
+  transform: scale(1.05);
 }
