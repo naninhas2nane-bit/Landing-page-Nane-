@@ -1,0 +1,62 @@
+/* Estilo global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f3f4f6;
+  color: #333;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background: #4f46e5;
+  color: white;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #22c55e;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+/* Seção de benefícios */
+.benefits {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.benefits h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.benefits ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
