@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nane da Sïlva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: url('https://cdn.openai.com/chatgpt/canvas-assets/background-terapia.jpg') no-repeat center center fixed;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #2c3e50;
+    }
+    header {
+      padding: 60px 20px;
+      background: rgba(255, 255, 255, 0.7);
+      border-radius: 12px;
+      display: inline-block;
+      margin-top: 30px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    section {
+      padding: 30px 20px;
+      background: rgba(255, 255, 255, 0.8);
+      border-radius: 12px;
+      display: inline-block;
+      margin: 20px auto;
+      max-width: 700px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.1rem;
+    }
+    ul li {
+      margin: 10px 0;
+    }
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      text-decoration: none;
+      background: #25d366;
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+    a:hover {
+      background: #1ebe57;
+    }
+    p.description {
+      font-size: 1rem;
+      color: #333;
+      margin-top: 15px;
+      line-height: 1.5;
+    }
+    img.foto {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 20px 0;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Nane da Sïlva</h1>
+    <p>Terapias e Bem-estar</p>
+  </header>  <section>
+    <h2>Benefícios</h2>
+    <ul>
+      <li>✔ Atendimento humanizado</li>
+      <li>✔ Direcionamento</li>
+      <li>✔ Redução do estresse e da ansiedade</li>
+      <li>✔ Harmonização energética</li>
+      <li>✔ Melhora da qualidade do sono</li>
+      <li>✔ Equilíbrio corpo e mente</li>
+    </ul><a href="https://wa.me/5511964265867?text=Olá,%20quero%20saber%20mais!" target="_blank">
+  Fale comigo no WhatsApp
+</a>
+
+  </section>  <section>
+    <h2>Técnicas Integrativas</h2>
+    <ul>
+      <li>✨ Radiestesia</li>
+      <li>✨ Reiki</li>
+      <li>✨ Mesas Radiônicas</li>
+      <li>✨ Outras técnicas de equilíbrio e bem-estar</li>
+    </ul>
+    <p class="description">
+      Essas práticas atuam de forma holística, promovendo equilíbrio energético, redução de bloqueios emocionais e fortalecimento do bem-estar físico e mental. Cada técnica é aplicada de acordo com a necessidade individual, proporcionando mais harmonia e qualidade de vida.
+    </p>
+  </section>  <section>
+    <h2>Sobre mim</h2>
+    <img src="https://cdn.openai.com/chatgpt/canvas-assets/foto-nane.jpg" alt="Foto de Nane da Sïlva" class="foto">
+    <p class="description">
+      Sou Nane da Sïlva, terapeuta integrativa apaixonada por ajudar pessoas a encontrarem equilíbrio, bem-estar e autoconhecimento. Através de técnicas como Radiestesia, Reiki e Mesas Radiônicas, ofereço atendimentos que acolhem o ser humano em sua totalidade — corpo, mente e energia.
+    </p>
+  </section>
+</body>
+</html>
