@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nane Terapeuta</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Bree Serif', serif;
+      line-height: 1.6;
+      background: url("bg-colorido.jpg") no-repeat center center fixed;
+      background-size: cover;
+      color: #000000;
+      text-align: center;
+    }
+
+    header {
+      background: rgba(255,255,255,0.7);
+      padding: 50px 20px;
+      border-radius: 20px;
+      margin: 20px auto;
+      max-width: 900px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .perfil {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .foto-perfil {
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 50%;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    }
+
+    .info {
+      text-align: left;
+    }
+
+    .nome-destaque {
+      font-size: 2.5rem;
+      margin: 0 0 10px;
+    }
+
+    .profissao {
+      font-size: 1.3rem;
+      margin: 0;
+      color: #333;
+    }
+
+    section {
+      padding: 40px 20px;
+      background: rgba(255,255,255,0.7);
+      border-radius: 20px;
+      margin: 20px auto;
+      max-width: 800px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .benefits h2 {
+      margin-bottom: 20px;
+      color: #000000;
+      font-size: 1.8rem;
+    }
+
+    .benefits ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .benefits ul li {
+      margin: 10px 0;
+      font-size: 1.1rem;
+      color: #000000;
+    }
+
+    .whatsapp-btn {
+      display: inline-block;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 50px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 10px rgba(37, 211, 102, 0.3);
+    }
+
+    .whatsapp-btn:hover {
+      background-color: #1ebe5a;
+      transform: scale(1.05);
+    }
+
+    .whatsapp-btn i {
+      margin-right: 8px;
+      font-size: 1.2rem;
+    }
+
+    footer {
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 800px;
+      background: rgba(255,255,255,0.7);
+      border-radius: 20px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      font-size: 1rem;
+      color: #000;
+    }
+
+    footer a {
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 10px;
+      display: inline-flex;
+      align-items: center;
+    }
+
+    footer a:hover {
+      opacity: 0.8;
+    }
+
+    footer i {
+      margin-right: 6px;
+      font-size: 1.2rem;
+    }
+
+    footer .fa-whatsapp {
+      color: #25D366;
+    }
+
+    footer .fa-instagram {
+      background: radial-gradient(circle at 30% 107%, 
+        #fdf497 0%, 
+        #fdf497 5%, 
+        #fd5949 45%, 
+        #d6249f 60%, 
+        #285AEB 90%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="perfil">
+      <img src="minha-foto.jpg" alt="Foto de apresentação" class="foto-perfil">
+      <div class="info">
+        <h1 class="nome-destaque">Nane Terapeuta</h1>
+        <p class="profissao">Terapias e Bem-estar</p>
+      </div>
+    </div>
+  </header>
+
+  <section class="benefits">
+    <h2>Benefícios</h2>
+    <ul>
+      <li>✔ Benefício 1</li>
+      <li>✔ Benefício 2</li>
+      <li>✔ Benefício 3</li>
+    </ul>
+  </section>
+
+  <section>
+    <a href="https://wa.me/5511964265867?text=Olá,%20quero%20saber%20mais!" 
+       target="_blank" 
+       class="whatsapp-btn">
+      <i class="fab fa-whatsapp"></i> Fale comigo no WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    <p>
+      <a href="https://wa.me/5511964265867?text=Olá,%20quero%20saber%20mais!" target="_blank">
+        <i class="fab fa-whatsapp"></i> WhatsApp
+      </a>
+      &nbsp; | &nbsp;
+      <a href="https://instagram.com/naneterapeuta47" target="_blank" class="instagram-link">
+        <i class="fab fa-instagram"></i> @naneterapeuta47
+      </a>
+    </p>
+  </footer>
+</body>
+</html>
